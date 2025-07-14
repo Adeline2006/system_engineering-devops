@@ -1,1 +1,2 @@
-0x04-loops_conditions_and_parsing/1-for_best_school
+chmod +x 1-for_best_school
+./1-for_best_school
