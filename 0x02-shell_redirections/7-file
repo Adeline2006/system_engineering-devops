@@ -1,2 +1,15 @@
 #!/bin/bash
-echo "Best School" > '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+cat << EOF > '\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)'
+B
+e
+s
+t
+
+S
+c
+h
+o
+o
+l
+EOF
+
