@@ -1,2 +1,5 @@
-chmod +x 1-for_best_school
-./1-for_best_school
+#!/bin/bash
+#
+for word in Best School; do
+  echo "$word"
+done
