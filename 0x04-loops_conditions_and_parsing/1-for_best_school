@@ -1,5 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 for word in Best School; do
   echo "$word"
-done
