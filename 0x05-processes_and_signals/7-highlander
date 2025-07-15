@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script prints a message forever and handles SIGTERM signal
+# This script runs forever and responds to SIGTERM with a message
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
