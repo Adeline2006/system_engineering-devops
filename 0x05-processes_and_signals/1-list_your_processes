@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# This script displays all running processes in a user-oriented format with hierarchy
+# This script displays all currently running processes in a user-oriented format with hierarchy
 
-ps -eF --forest
+ps -eo uid,tty,cmd --forest
