@@ -2,12 +2,16 @@
 #
 i=1
 while [ "$i" -le 20 ]; do
-if [ "$i" -eq 4 ] || [ "$i" -eq 13 ] || [ "$i" -eq 19 ]; then
-echo "bad luck"
-elif [ "$i" -eq 7 ] || [ "$i" -eq 16 ]; then
-echo "good luck"
-else
-echo "Best School"
-fi
+case "$i" in
+  4|13|19)
+    echo "bad luck"
+    ;;
+  7|16)
+    echo "good luck"
+    ;;
+  *)
+    echo "Best School"
+    ;;
+esac
 i=$((i + 1))
 done
