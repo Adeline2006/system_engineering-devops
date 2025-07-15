@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-#
+# Display filenames without the prefix before the first dash
+
 for file in *; do
-  echo "$file"
+  # Check if it is not a hidden file (glob * excludes hidden by default)
+  # Extract part after first dash
+  echo "${file#*-}"
 done
