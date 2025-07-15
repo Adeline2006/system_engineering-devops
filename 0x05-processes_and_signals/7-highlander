@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Display message endlessly and handle SIGTERM signal
+# This script displays "To infinity and beyond" indefinitely
+# and says "I am invincible!!!" when receiving SIGTERM
 
 trap "echo 'I am invincible!!!'" SIGTERM
 
@@ -7,3 +8,4 @@ while true
 do
   echo "To infinity and beyond"
   sleep 2
+done
